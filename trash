@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NCDC Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Poppins:400,700,900&display=swap" rel="stylesheet">
+    <link href="/images/style.css" rel="stylesheet" />
+    <style>
+        .poppins-font {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            font-weight: lighter;
+            font-weight: 700;
+            font-size: 36px ;
+            text-align: right;
+            margin-top: -5px;
+        }
+        .handlee-font {
+            font-family: 'Handlee', cursive;
+        }
+    .border {
+        border: 1px solid red;
+    }
+    .full-height{
+        height: 100vh;
+    }
+    .full-height-percent{
+        height: 100%;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .margin-y {
+        margin: 5px 0;
+    }
+    
+    .header {
+        height: 100px;
+    }
+    
+    .nav {
+        height: 50px;   
+    }
+    
+    .feature {
+        height: 350px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+
+
+    .arrange-row1 {
+        display: flex
+    }
+    .flex-major {
+        flex-grow: 1;
+    }
+    </style>
+</head>
+<body>
+    <div class="border full-height">
+            <div class="border container full-height-percent">
+                <div class="border margin-y header arrange-row1">
+                    <div class=""> 
+                            <img src="images/logo.jpg" alt="ncdc logo" />
+                        </div>
+                        <div class=" border flex-major">
+                            <h1 class="poppins-font">National Center for Disease Control</h1>
+                            <h1 class="handlee-font">National Center for Disease Control</h1>
+                        </div>
+                        <div class="text-center">
+                                <img src="images/icon3.jpg" width="70%" alt="ncdc logo" />
+
+                    </div>
+                </div>
+                <div class="border margin-y nav">
+
+                </div>
+                <div class="border margin-y feature">
+
+                </div>
+                <div class="border margin-y feature">
+
+                </div>
+                <div class="border margin-y feature">
+
+                </div>
+                <div class="border margin-y feature">
+
+                </div>
+
+            </div>
+    </div>
+    
+</body>
+</html>
